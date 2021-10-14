@@ -63,7 +63,7 @@ time curl 'http://127.0.0.1:8000/runcode' \
 time curl 'http://127.0.0.1:8000/runcode' \
 -X 'POST' \
 -H 'Content-Type: application/json' \
---data-binary '{"files":[{"language":"js","name":"main.js","content":"console.log(\"Hello World!\")"}]}' \
+--data-binary '{"files":[{"language":"javascript","name":"main.js","content":"console.log(\"Hello World!\")"}]}' \
 
 
 
