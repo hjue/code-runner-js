@@ -27,7 +27,7 @@ var runCommand = (filename, language) => {
     case 'python':
       command = `ulimit -t ${config.TIMEOUT};python ${filename} `
       break
-    case 'js':
+    case 'javascript':
       command = `ulimit -t ${config.TIMEOUT};node  ${filename}`
       break
     case 'sql':
